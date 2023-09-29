@@ -5,7 +5,10 @@ header {
     position: absolute;
     color: #fff;
 }
-
+.header-logo-link {
+    text-decoration: none;
+    color: #fff;
+}
 .header-data {
     height: 100%;
     display: flex;

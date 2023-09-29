@@ -8,7 +8,9 @@ const Header = () => {
     <header>
         <div className='container header-data'>
             <div className='header-logo'>
-                <h2>Dav Tour</h2>
+                <Link to={'/'} className='header-logo-link'>
+                    <h2>Dav Tour</h2>
+                </Link>
             </div>
             <div className='header-links'>
                 <nav>

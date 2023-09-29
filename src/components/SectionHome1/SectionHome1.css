@@ -25,7 +25,7 @@
 }
 .home-sect1-div>button{
     border-radius: 30px;
-    font-size: 0.8rem;
+    font-size: 16px;
     width: 180px;
     height: 50px;
     border: none;
@@ -43,11 +43,11 @@
         font-size: 3.5rem;
 
     }
-    .home-sect1-div>button{
-        font-size: 0.6rem;
+    /* .home-sect1-div>button{
+        /* font-size: 0.6rem;
         height: 7%;
         width: 15%;
-    }
+    } */
 }
 
 @media screen and (max-width: 580px) {
@@ -61,11 +61,11 @@
 }
 
 @media screen and (max-width: 500px) {
-    .home-sect1-div>button{
+    /* .home-sect1-div>button{
         font-size: 0.6rem;
         height: 7%;
         width: 25%;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px) {
