@@ -1,0 +1,93 @@
+header {
+    height: 70px;
+}
+
+.header-data {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.tours-button {
+    height: 50px;
+    background: #1BAE70FF;
+    border: none;
+    color: #fff;
+    width: 180px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.tours-button:hover {
+    background: #06752EFF;
+}
+
+.drop-menu {
+    border: none;
+    color: #fff;
+    background: #1BAE70FF;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .5s;
+}
+
+.drop-menu:hover {
+    background: #06752EFF;
+}
+.offcanvas-close {
+    border: none;
+    color: #fff;
+    background: #1BAE70FF;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .5s;
+}
+.offcanvas-close:hover {
+    background: #06752EFF;
+}
+/* .offcanvas-nav {
+    display: grid;
+}
+
+.offcanvas-nav-link {
+    text-decoration: none;
+    color: #222;
+    font-size: 22px;
+    text-align: center;
+}
+
+.offcanvas-nav-link{
+    border-bottom: 1px solid gray;
+    padding: 0px 0px 15px 0px;
+} */
