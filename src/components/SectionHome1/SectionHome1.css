@@ -30,7 +30,7 @@
     width: 10%;
     height: 7%;
     border: none;
-    background-color: #1BAE70;
+    background-color: #06752EFF;
     color: white;
     transition: all 0.5s;
     margin-top: 35px;
@@ -38,7 +38,7 @@
 
 }
 .home-sect1-div>button:hover{
-    background-color: #087B34;
+    background: rgb(11, 66, 31);
 }
 
 @media screen and (max-width: 850px) {

@@ -1,6 +1,9 @@
 header {
+    width: 100%;
     height: 70px;
     background: none;
+    position: absolute;
+    color: #fff;
 }
 
 .header-data {
