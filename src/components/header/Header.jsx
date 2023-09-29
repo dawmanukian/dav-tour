@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import DropMenu from '../drop-menu/DropMenu'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -11,11 +12,13 @@ const Header = () => {
             </div>
             <div className='header-links'>
                 <nav>
-                    <a href="#" className='nav-link'>Home</a>
-                    <a href="#" className='nav-link'>About</a>
-                    <a href="#" className='nav-link'>Contact</a>
+                    <Link to={'/'} className='nav-link'>Home</Link>
+                    <Link to={'/about'} className='nav-link'>About</Link>
+                    <Link to={'/contact'} className='nav-link'>Contact</Link>
                 </nav>
-                <button className='tours-button'>Our tours</button>
+                <Link to={'/tours'}>
+                    <button className='tours-button'>Our tours</button>
+                </Link>
                 {['top'].map((placement, idx) => (
                     <DropMenu key={idx} placement={placement} name={placement} />
                 ))}

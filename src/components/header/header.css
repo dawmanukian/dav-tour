@@ -116,7 +116,7 @@ nav {
     .drop-menu {
         display: block;
     }
-    .header-links > nav {
+    .header-links > nav, .tours-button {
         display: none;
     }
 }
