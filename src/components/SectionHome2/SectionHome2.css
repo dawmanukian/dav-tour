@@ -1,0 +1,93 @@
+.sec-home2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.sec-home2>h1{
+    font-size: 2.2rem;
+}
+.sec-home2>hr{
+    border: none;
+    height: 3px;
+    width: 10%;
+    background-color:#1BAE70;
+
+}
+.home-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+
+    width: 60vh;
+    height: 65vh;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.card>img{
+    width: 60vh;
+    margin-bottom: 25px;
+}
+.card>p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+.card>button{
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1BAE70;
+    color: white;
+    transition: all 0.5s;
+
+}
+.card>button:hover{
+background-color: rgb(11, 66, 31);
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        width: 45vh;
+        height: 55vh;
+    }
+    .sec-home2>hr{
+        width: 15%;
+    }    
+    .card>img{
+        width: 45vh;
+       
+    }
+    .card>p{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .card{
+        width: 35vh;
+        height: 48vh;
+    }    
+    .card>img{
+        width: 35vh;
+       
+    }
+    .sec-home2>h1{
+        font-size: 1.8rem;
+    }
+    .card>button{
+        width: 140px;
+        height: 35px;
+    }
+    .card>p{
+        font-size: 0.7rem;
+
+    }
+}
