@@ -1,6 +1,6 @@
 import React from 'react'
 import './SectionHome1.css'
-
+import { Link } from 'react-router-dom'
 
 const SectionHome1 = () => {
   return (
@@ -8,7 +8,9 @@ const SectionHome1 = () => {
       <b>Explore the Colourful World</b>
       <hr />
       <h1>A WONDERFUL GIFT</h1>
-      <button>LEARN MORE</button>
+      <Link to={'/about'}>
+        <button className='learn-more-button'>LEARN MORE</button>
+      </Link>
     </div>
   )
 }
