@@ -16,18 +16,18 @@ const DropMenu = ({ name, ...props }) => {
             <FaBars />
         </button>
 
-        <Offcanvas show={show} onHide={handleClose} {...props}>
+        <Offcanvas show={show} onHide={handleClose} {...props} id="drop-menu">
             <Offcanvas.Header>
-                <Offcanvas.Title>Dav Tour</Offcanvas.Title>
+                <Offcanvas.Title>Dav Tour Agency</Offcanvas.Title>
                 <button onClick={handleClose} className='offcanvas-close'><FaXmark /></button>
             </Offcanvas.Header>
             <Offcanvas.Body>
                 <nav className='offcanvas-nav'>
-                    <a href="#" className='offcanvas-nav-link'>Home</a>
-                    <a href="#" className='offcanvas-nav-link'>About</a>
-                    <a href="#" className='offcanvas-nav-link'>Contact</a>
+                    <div className='nav-link-div'><a href="#" className='offcanvas-nav-link'>Home</a></div>
+                    <div className='nav-link-div'><a href="#" className='offcanvas-nav-link'>About</a></div>
+                    <div className='nav-link-div'><a href="#" className='offcanvas-nav-link'>Contact</a></div>
+                    <div className='nav-link-div'><a href="#" className='offcanvas-nav-link'>Our tours</a></div>
                 </nav>
-                <button className='tours-button'>Our tours</button>
             </Offcanvas.Body>
         </Offcanvas>
     </>
