@@ -30,6 +30,11 @@ nav {
 
 .nav-link {
     text-decoration: none;
+    transition: all ease .5s;
+}
+
+.nav-link:hover {
+    color: #06752EFF;
 }
 
 .tours-button {
@@ -112,7 +117,22 @@ nav {
 }
 
 #drop-menu {
-    height: 40vh;
+    height: 59vh;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.contact-links {
+    border-top: 1px solid gray;
+    padding: 15px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact-links>a {
+    text-decoration: none;
+    color: #222;
 }
 
 @media screen and (max-width: 770px){
