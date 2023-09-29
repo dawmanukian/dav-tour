@@ -1,0 +1,87 @@
+.home-sect1-div{
+    height: 90vh;
+    width: 100%;
+    background-image: url('https://d3owbckoeihl9o.cloudfront.net/images/10at/wp-content/uploads/2019/10/Allibert-Dolomites-00-Enjoying-trekking-in-the-Dolomites.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-blend-mode: multiply;
+    background-color: rgb(144, 134, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.home-sect1-div>hr{
+    border: none;
+    height: 3px;
+    width: 5%;
+    background-color: #54e0a6;
+}
+.home-sect1-div>h1{
+    font-size: 4.5rem;
+
+}
+.home-sect1-div>button{
+    border-radius: 18px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 10%;
+    height: 7%;
+    border: none;
+    background-color: #1BAE70;
+    color: white;
+    transition: all 0.5s;
+    margin-top: 35px;
+    
+
+}
+.home-sect1-div>button:hover{
+    background-color: #087B34;
+}
+
+@media screen and (max-width: 850px) {
+    .home-sect1-div>h1{
+        font-size: 3.5rem;
+
+    }
+    .home-sect1-div>button{
+        font-size: 0.6rem;
+        height: 7%;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .home-sect1-div>h1{
+        font-size: 2.5rem;
+
+    }
+    .home-sect1-div>b{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-sect1-div>button{
+        font-size: 0.6rem;
+        height: 7%;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-sect1-div>h1{
+        font-size: 2rem;
+
+    }
+    .home-sect1-div>b{
+        font-size: 1rem;
+    }
+    .home-sect1-div>hr{
+        width: 15%;
+    }
+    
+
+}
