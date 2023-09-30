@@ -1,0 +1,54 @@
+.contact-section {
+    height: 62vh;
+    width: 100%;
+    background-image: url('../../images/contact-bg-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-blend-mode: multiply;
+    background-color: rgb(144, 134, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: all ease .5s;
+}
+
+.contact-section > h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    transition: all ease .5s;
+    animation: contact-sect-animation 1s;
+    font-weight: 600;
+}
+
+
+@keyframes contact-sect-animation {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contact-section>h1{
+        font-size: 3.5rem;
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contact-section>h1{
+        font-size: 2.5rem;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-section>h1{
+        font-size: 2rem;
+    }
+}
