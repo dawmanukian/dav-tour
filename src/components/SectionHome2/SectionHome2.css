@@ -18,17 +18,17 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .card{
     width: 60vh;
-    padding: 15px;
-    /* height: 65vh; */
+    padding: 0px 0px 20px 0px;
+    border-radius: 15px;
+    background: #F0F2F5FF;
     border: none;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 15px;
-    margin-top: 10px;
     cursor: pointer;
     transition: all ease .5s;
 }
@@ -38,6 +38,7 @@
 .card>img{
     width: 60vh;
     margin-bottom: 25px;
+    border-radius: 15px 15px 0px 0px;
 }
 .card>p{
     font-size: 0.9rem;
@@ -45,8 +46,8 @@
 }
 .card>button{
     width: 180px;
-    height: 40px;
-    border-radius: 15px;
+    height: 45px;
+    border-radius: 22px;
     border: none;
     background-color: #06752EFF;
     color: white;
