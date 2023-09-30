@@ -22,7 +22,7 @@ const ContactData = () => {
             </div>
             <div>
                 <h3>Follow Us​</h3>
-                <div className='social-links'>
+                <div className='contact-social-links'>
                     <a href='https://www.instagram.com/davv_tourr/' target='_blank' rel='noreferrer'><FaFacebookSquare /></a>
                     <a href='https://www.instagram.com/davv_tourr/' target='_blank' rel='noreferrer'><FaInstagram /></a>
                     <a href='https://www.instagram.com/davv_tourr/' target='_blank' rel='noreferrer'><FaLinkedin /></a>

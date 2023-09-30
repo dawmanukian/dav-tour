@@ -17,22 +17,26 @@
     height: auto;
 }
 
-.social-links {
+.contact-social-links {
     margin: 30px 0px 0px 0px;
+    display: flex;
+    gap: 12px;
 }
 
-.social-links > a {
+.contact-social-links > a {
     color: #fff;
     background: #06752EFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
     border-radius: 50%;
     transition: all ease .5s;
 }
 
-.social-links > a:hover {
+.contact-social-links > a:hover {
     background: rgb(11, 66, 31);
 }
 
