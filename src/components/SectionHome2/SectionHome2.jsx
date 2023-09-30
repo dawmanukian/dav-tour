@@ -25,7 +25,6 @@ const SectionHome2 = () => {
         <h1>UPCOMING EVENTS</h1>
         <hr />
         <div className='home-cards'>
-
             {data.map((item,index)=>(
             <div key={index} className='card'>
                 <img src={item.img}/>
@@ -35,9 +34,6 @@ const SectionHome2 = () => {
                 <button>Learn More <BsArrowRight /> </button>
             </div>
             ))}
-
-    
-            
         </div>
     </div>
   )

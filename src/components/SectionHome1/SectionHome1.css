@@ -44,11 +44,6 @@
         font-size: 3.5rem;
 
     }
-    /* .home-sect1-div>button{
-        /* font-size: 0.6rem;
-        height: 7%;
-        width: 15%;
-    } */
 }
 
 @media screen and (max-width: 580px) {
@@ -72,9 +67,4 @@
     .home-sect1-div>hr{
         width: 15%;
     }
-    
-
 }
-
-
-

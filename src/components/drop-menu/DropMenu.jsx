@@ -18,7 +18,7 @@ const DropMenu = ({ name, ...props }) => {
 
         <Offcanvas show={show} onHide={handleClose} {...props} id="drop-menu">
             <Offcanvas.Header>
-                <Offcanvas.Title>Dav Tour Agency</Offcanvas.Title>
+                <h2>Dav Tour Agency</h2>
                 <button onClick={handleClose} className='offcanvas-close'><FaXmark /></button>
             </Offcanvas.Header>
             <Offcanvas.Body>
