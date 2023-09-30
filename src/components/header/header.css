@@ -117,7 +117,7 @@ nav {
 }
 
 #drop-menu {
-    height: 59vh;
+    height: 60vh;
     border-radius: 0px 0px 25px 25px;
 }
 
@@ -133,6 +133,16 @@ nav {
 .contact-links>a {
     text-decoration: none;
     color: #222;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links > a {
+    font-size: 26px;
+    color: #06752EFF;
 }
 
 @media screen and (max-width: 770px){
