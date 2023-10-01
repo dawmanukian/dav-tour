@@ -12,79 +12,75 @@
     flex-direction: column;
     color: #ffffff;
     font-size: 1.5rem;
+    transition: all ease .5s;
 }
-.home-sect1-div>hr{
+.home-sect1-div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all ease .5s;
+    animation: home-sect-animation 1s;
+}
+@keyframes home-sect-animation {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.home-sect1-div>div>hr{
     border: none;
     height: 3px;
     width: 5%;
     background-color: #54e0a6;
 }
-.home-sect1-div>h1{
+.home-sect1-div>div>h1{
     font-size: 4.5rem;
-
+    transition: all ease .5s;
 }
-.home-sect1-div>button{
-    border-radius: 18px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    width: 10%;
-    height: 7%;
+.learn-more-button{
+    border-radius: 30px;
+    font-size: 16px;
+    width: 180px;
+    height: 50px;
     border: none;
-    background-color: #1BAE70;
+    background-color: #06752EFF;
     color: white;
     transition: all 0.5s;
     margin-top: 35px;
-    
-
 }
-.home-sect1-div>button:hover{
-    background-color: #087B34;
+.learn-more-button:hover{
+    background: rgb(11, 66, 31);
 }
 
 @media screen and (max-width: 850px) {
-    .home-sect1-div>h1{
+    .home-sect1-div>div>h1{
         font-size: 3.5rem;
 
-    }
-    .home-sect1-div>button{
-        font-size: 0.6rem;
-        height: 7%;
-        width: 15%;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .home-sect1-div>h1{
+    .home-sect1-div>div>h1{
         font-size: 2.5rem;
 
     }
-    .home-sect1-div>b{
+    .home-sect1-div>div>b{
         font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .home-sect1-div>button{
-        font-size: 0.6rem;
-        height: 7%;
-        width: 25%;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .home-sect1-div>h1{
+    .home-sect1-div>div>h1{
         font-size: 2rem;
 
     }
-    .home-sect1-div>b{
+    .home-sect1-div>div>b{
         font-size: 1rem;
     }
-    .home-sect1-div>hr{
+    .home-sect1-div>div>hr{
         width: 15%;
     }
-    
-
 }
-
-
-
