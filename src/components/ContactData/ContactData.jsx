@@ -3,6 +3,7 @@ import './contactdata.css'
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const ContactData = () => {
+    document.title = 'Dav Tour Agency - Contact'
   return (
     <div className='contact-data container'>
         <div className='contact-info'>
