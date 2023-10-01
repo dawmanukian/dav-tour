@@ -15,7 +15,7 @@ const ContactData = () => {
             </div>
             <div>
                 <h3>Email Us​</h3>
-                <p>contact@example.com</p>
+                <p>magicalcompanyofficial@gmail.com</p>
             </div>
             <div>
                 <h3>Call Us​</h3>
