@@ -5,8 +5,8 @@ import ContactData from '../../components/ContactData/ContactData'
 const ContactPage = () => {
   return (
     <div>
-        <SectionContact />
-        <ContactData />
+        <SectionContact header={'Contact us'}/>
+        <ContactData/>
     </div>
   )
 }

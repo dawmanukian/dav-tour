@@ -1,10 +1,10 @@
 import React from 'react'
 import './sectioncontact.css'
 
-const SectionContact = () => {
+const SectionContact = ({header}) => {
   return (
     <div className='contact-section'>
-        <h1>Contact us</h1>
+        <h1>{header}</h1>
     </div>
   )
 }
