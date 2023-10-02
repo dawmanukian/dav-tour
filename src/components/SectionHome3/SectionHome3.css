@@ -7,3 +7,62 @@
     background-blend-mode: multiply;
     background-color: rgb(144, 134, 134);
 }
+.home-sec3-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
+    justify-content: center;
+    height: 80%;
+}
+.home-sec3-text>div>h1{
+    color: white;
+}
+.home-sec3-text>div>hr{
+    border: none;
+    height: 3px;
+    width: 70px;
+    background-color: #23ee9a;
+}
+.home-sec3-text>div>div>p{
+    color: white;
+}
+.home-sec3-text>div>button{
+    border-radius: 25px;
+    height: 45px;
+    margin-top: 10px;
+    border: none;
+    font-size: 14px;
+    width: 170px;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #1BAE70;
+    color: white;  
+    transition: all 0.5s;
+}
+.home-sec3-text>div>button:hover{
+    background-color: rgb(11, 66, 31);
+}
+@media screen and (max-width:700px) {
+    .home-sec3-text>div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .home-sec3-text{
+        padding-right: 0px;
+    }
+    
+
+    .home-sec3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
