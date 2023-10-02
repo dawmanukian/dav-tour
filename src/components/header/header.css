@@ -45,6 +45,10 @@ nav {
     transition: all ease .5s;
 }
 
+.nav-link:active {
+    color: #06752EFF;
+}
+
 .nav-link:hover {
     color: #06752EFF;
 }
@@ -129,8 +133,7 @@ nav {
 }
 
 #drop-menu {
-    height: 65vh;
-    border-radius: 0px 0px 25px 25px;
+    height: 50vh;
 }
 
 .contact-links {

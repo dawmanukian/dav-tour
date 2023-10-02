@@ -11,7 +11,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 25px;
+    gap: 10px;
     padding: 22px 10px 0px 10px;
 }
 .footer-social-links {
@@ -21,4 +21,10 @@ footer {
 .footer-social-links > a {
     color: #fff;
     font-size: 23px;
+}
+.magical {
+    color: rgb(174, 173, 173);
+}
+.magical-site {
+    color: rgb(174, 173, 173);
 }
