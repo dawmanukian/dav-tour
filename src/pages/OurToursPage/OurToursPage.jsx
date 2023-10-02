@@ -3,6 +3,9 @@ import SectionContact from '../../components/SectionContact/SectionContact'
 import AllTours from '../../components/alltours/AllTours'
 
 const OurToursPage = () => {
+
+    document.title = 'Dav Tour Agency - Tours';
+
     const data = [
         {
             img: 'https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2020/01/hiking-v1.jpg',
