@@ -1,10 +1,11 @@
 import React from 'react'
 import SectionContact from '../../components/SectionContact/SectionContact'
-import AllTours from '../../components/alltours/AllTours'
+import { useParams } from 'react-router-dom'
+import TourInfo from '../../components/tourinfo/TourInfo'
 
-const OurToursPage = () => {
+const TourInfoPage = () => {
 
-    document.title = 'Dav Tour Agency - Tours';
+    const tourId = useParams('tourId')
 
     const data = [
         {
@@ -46,12 +47,15 @@ const OurToursPage = () => {
 
         }
     ]
+
+    const tour = data.filter(el => el.id === Number(tourId.tourId))
+
   return (
     <>
-        <SectionContact header = {'Our Tours'}/>
-        <AllTours data={data}/>
+        <SectionContact header = {'Tour info'}/>
+        <TourInfo data={tour}/>
     </>
   )
 }
 
-export default OurToursPage
+export default TourInfoPage
