@@ -45,6 +45,10 @@ nav {
     transition: all ease .5s;
 }
 
+.nav-link:active {
+    color: #06752EFF;
+}
+
 .nav-link:hover {
     color: #06752EFF;
 }
