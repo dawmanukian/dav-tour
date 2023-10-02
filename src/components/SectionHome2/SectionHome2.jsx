@@ -19,9 +19,7 @@ const SectionHome2 = () => {
             title: 'Everest Camp Trek3',
             description : 'Fuerat aestu carentem habentia spectent tonitrua mutastis3'
 
-        }
-
-        
+        }  
     ]
   return (
     <div className='sec-home2'>
@@ -34,7 +32,6 @@ const SectionHome2 = () => {
                 <img src={item.img}/>
                 <b>{item.title}</b>
                 <p>{item.description}</p>
-
                 <button>Learn More <BsArrowRight /> </button>
             </div>
             ))}
