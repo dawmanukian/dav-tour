@@ -1,0 +1,27 @@
+.tour {
+    transition: all ease .5s;
+}
+
+.tour-info {
+    margin: 30px 0px 0px 0px;
+    background: #F0F2F5FF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .5s;
+}
+
+.tour-info>img{
+    width: 100vh;
+    margin-bottom: 25px;
+    border: 10px solid #fff;
+    transition: all ease .5s;
+}
+
+@media screen and (max-width: 992px) {   
+    .tour-info>img{
+        width: 100%;    
+    }
+}

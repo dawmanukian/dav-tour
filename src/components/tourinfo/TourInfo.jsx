@@ -1,14 +1,15 @@
 import React from 'react'
+import './tourinfo.css'
 
 const TourInfo = ({data}) => {
   return (
-    <div className='tour-info'>
+    <div className='container tour'>
         {
             data.map(el => {
                 return (
-                    <div>
+                    <div className='tour-info'>
                         <h1>{el.title}</h1>
-                        <img src={el.img} width={'80%'}/>
+                        <img src={el.img}/>
                         <p>{el.description}</p>
                     </div>
                 )
